@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "setup": "npm install && cp .env.example .env && npm run dev",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",

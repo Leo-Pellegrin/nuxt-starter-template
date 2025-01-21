@@ -4,12 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
   modules: [
-    '@nuxt/content',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
+    '@nuxt/content',
     '@vite-pwa/nuxt',
     'nuxt-gtag',
-    '@nuxtjs/tailwindcss',
+    // '@nuxtjs/tailwindcss',
     '@nuxt/fonts',
     '@nuxt/ui',
     '@nuxt/image'

@@ -22,9 +22,13 @@ Ce modèle est conçu pour démarrer rapidement des projets Nuxt orienté pour d
     ```bash
     npm install    
     ```
-3. Ajoutez votre configurations :
-    - Remplissez les fichiers .env ou configurez runtimeConfig dans nuxt.config.ts.
-4. Lancez le projet : 
+3. Lancez le script d'initialisation :
+    ```bash
+    npm run setup
+    ```
+4. Ajoutez votre configuration :
+    - Remplissez les fichiers .env, configurez runtimeConfig ou l'authentification dans nuxt.config.ts.
+5. Lancez le projet : 
     ```bash
     npm run dev
     ```
