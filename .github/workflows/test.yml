@@ -1,0 +1,15 @@
+name: Run Tests
+
+on:
+  workflow_dispatch: # Ne se lance que manuellement depuis l'interface GitHub Action
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm install
+      - run: npm test # Remplace par la commande exacte pour exécuter tes tests
